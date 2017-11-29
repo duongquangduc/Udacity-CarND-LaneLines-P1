@@ -38,6 +38,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Here is the examples of the final output videos:
 <script src="https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4"></script>
+[![Watch the video](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4)]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
