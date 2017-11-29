@@ -36,7 +36,8 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 4. For left and right lines, calculate x_min and x_max using intercept, slope
 5. Draw a line using (x_min, y_min) and (x_max, y_max)
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Here is the examples of the final output videos:
+<script src="https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.mp4"></script>
 
 ### 2. Identify potential shortcomings with your current pipeline
 
