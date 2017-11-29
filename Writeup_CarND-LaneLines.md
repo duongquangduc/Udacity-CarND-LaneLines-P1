@@ -38,9 +38,6 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
-![alt text][image1]
-
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 One potential shortcoming of this solution is that the lane line could be wrong when running the algorithm on different videos or different roads. This could be due to the initialized values of the parameters like KERNEL_SIZE, LOW_THRESHOLD, HIGH_THRESHOLD, RHO, THETA, MIN_VOTES, MIN_LINE_LEN, MAX_LINE_GAP, BOTTOM_SHIFT, TOP_SHIP are not suitable. This is also one of the challenge for this problem when I have to manually try with different values.
