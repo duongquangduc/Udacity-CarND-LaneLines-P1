@@ -37,6 +37,13 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 4. For left and right lines, calculate x_min and x_max using intercept, slope
 5. Draw a line using (x_min, y_min) and (x_max, y_max)
 
+### Results: Performance on Videos
+#### Video solidWhiteRight
+[![Video solidWhiteRight](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.gif)]
+
+#### Video solidYellowLeft
+[![Video solidYellowLeft](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.gif)]
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 One potential shortcoming of this solution is that the lane line could be wrong when running the algorithm on different videos or different roads. This could be due to the initialized values of the parameters like KERNEL_SIZE, LOW_THRESHOLD, HIGH_THRESHOLD, RHO, THETA, MIN_VOTES, MIN_LINE_LEN, MAX_LINE_GAP, BOTTOM_SHIFT, TOP_SHIP are not suitable. This is also one of the challenge for this problem when I have to manually try with different values.
