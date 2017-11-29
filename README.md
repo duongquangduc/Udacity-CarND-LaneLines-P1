@@ -3,14 +3,14 @@
    
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-## Writeup 
+## Writeup
+This is my first project in Self-Driving Car Nanodegree Program. This project is built based on the guide and code template of Udacity. Here is the [original template](https://github.com/udacity/CarND-LaneLines-P1).
 ---
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
-
 
 [//]: # (Image References)
 
@@ -44,5 +44,6 @@ One potential shortcoming of this solution is that the lane line could be wrong 
 ### 3. Suggest possible improvements to your pipeline
 
 There are several improvements that I could try in future.
-1. First, I can re-preprocess the original image, not just convert it to grayscale but different channel and increase its contrast.
+1. First, I can re-preprocess the original image, not just converting it to grayscale but to different channel and/or increasing its contrast.
 2. Second, try different algorithms that can fix the issues of identifying the proper values for the mentioned parameters.
+3. Third, make the image mask selection and the slopes to be dynamic according to the curve of each lane.
