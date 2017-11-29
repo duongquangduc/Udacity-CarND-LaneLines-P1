@@ -39,10 +39,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 ### Results: Performance on Videos
 #### Video solidWhiteRight
-[![Video solidWhiteRight](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.gif)]
+[![Video solidWhiteRight](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.gif)
 
 #### Video solidYellowLeft
-[![Video solidYellowLeft](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.gif)]
+[![Video solidYellowLeft](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.gif)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
