@@ -4,8 +4,9 @@
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 ## Writeup
-This is my first project in Self-Driving Car Nanodegree Program. This project is built based on the guide and code template of Udacity. Here is the [original template](https://github.com/udacity/CarND-LaneLines-P1).
 ---
+This is my first project in Self-Driving Car Nanodegree Program. This project is built based on the guide and code template of Udacity. Here is the [original template](https://github.com/udacity/CarND-LaneLines-P1).
+
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
