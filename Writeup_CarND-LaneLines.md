@@ -3,14 +3,15 @@
    
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
-## Writeup 
+## Writeup
 ---
+This is my first project in Self-Driving Car Nanodegree Program. This project is built based on the guide and code template of Udacity. You can find the original guide here: [CarND-LaneLines-P1](https://github.com/udacity/CarND-LaneLines-P1).
+
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
-
 
 [//]: # (Image References)
 
@@ -36,6 +37,13 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 4. For left and right lines, calculate x_min and x_max using intercept, slope
 5. Draw a line using (x_min, y_min) and (x_max, y_max)
 
+### Results: Performance on Videos
+#### Video solidWhiteRight
+![Video solidWhiteRight](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidWhiteRight.gif)
+
+#### Video solidYellowLeft
+![Video solidYellowLeft](https://github.com/duongquangduc/Udacity-CarND-LaneLines-P1/blob/master/test_videos_output/solidYellowLeft.gif)
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 One potential shortcoming of this solution is that the lane line could be wrong when running the algorithm on different videos or different roads. This could be due to the initialized values of the parameters like KERNEL_SIZE, LOW_THRESHOLD, HIGH_THRESHOLD, RHO, THETA, MIN_VOTES, MIN_LINE_LEN, MAX_LINE_GAP, BOTTOM_SHIFT, TOP_SHIP are not suitable. This is also one of the challenge for this problem when I have to manually try with different values.
@@ -44,5 +52,6 @@ One potential shortcoming of this solution is that the lane line could be wrong 
 ### 3. Suggest possible improvements to your pipeline
 
 There are several improvements that I could try in future.
-1. First, I can re-preprocess the original image, not just convert it to grayscale but different channel and increase its contrast.
+1. First, I can re-preprocess the original image, not just converting it to grayscale but to different channel and/or increasing its contrast.
 2. Second, try different algorithms that can fix the issues of identifying the proper values for the mentioned parameters.
+3. Third, make the image mask selection and the slopes to be dynamic according to the curve of each lane.
